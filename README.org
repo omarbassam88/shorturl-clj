@@ -19,4 +19,8 @@ Clone the repository and inside the project directory run the following command:
 clj -X:dev
 #+end_src
 
-You can use the test.http file as a guide of how to send and read from the API.
+You can use the =test.http= file as a guide of how to send and read from the API.
+
+** References
+
+- [[https://www.youtube.com/watch?v=0mrguRPgCzI][on the code again: Create a URL shortner with Clojure and MySQL]]
