@@ -1,0 +1,22 @@
+#+title: URL Shortener in Clojure
+
+* URL Shortener written in Clojure
+
+A simple URL shortener written in Clojure using ring, reitit, jdbc and a simple sqlite database.
+
+The urls are saved in the =db/db.sqlite= file.
+
+** Requirements
+
+- Clojure 1.10.0
+- sqlite3
+
+** Usage
+
+Clone the repository and inside the project directory run the following command:
+
+#+begin_src shell
+clj -X:dev
+#+end_src
+
+You can use the test.http file as a guide of how to send and read from the API.
