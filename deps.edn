@@ -1,0 +1,11 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        org.clojure/java.jdbc {:mvn/version "0.7.12"}
+        org.xerial/sqlite-jdbc {:mvn/version "3.39.2.0"}
+        com.github.seancorfield/honeysql {:mvn/version "2.3.911"}
+        javax.servlet/servlet-api {:mvn/version "2.5"}
+        ring/ring {:mvn/version "1.9.5"}
+        metosin/reitit {:mvn/version "0.5.18"}
+        metosin/muuntaja {:mvn/version "0.6.8"}}
+
+ :aliases {:dev {:main-opts ["-m" "shorturl.core"]}}}

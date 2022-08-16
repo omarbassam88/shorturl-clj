@@ -1,0 +1,13 @@
+# Variables
+:base-url = http://localhost:3000
+
+# Test slug
+GET :base-url/ob88
+
+# Test Insert new redirect
+POST :base-url/api/redirect
+Content-Type: application/json
+
+{
+	"url" : "http://github.com"
+}
